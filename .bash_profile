@@ -46,3 +46,12 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+#######All the settings below this line are added by me########
+
+#enable vi mode on command line
+set -o vi
+
+export EDITOR=vim
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

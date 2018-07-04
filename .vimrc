@@ -1,7 +1,7 @@
 " Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+set background=light
+" colorscheme solarized
+" let g:solarized_termtrans=1
 
 " Make Vim more useful
 set nocompatible
@@ -104,3 +104,8 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
+
+
+" #######All the settings below this line are added by me########
+
+map q :q<CR>         "Quit with 'q' instead of ':q'. VERY useful
