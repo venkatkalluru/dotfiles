@@ -109,3 +109,4 @@ endif
 " #######All the settings below this line are added by me########
 
 map q :q<CR>         "Quit with 'q' instead of ':q'. VERY useful
+set rtp+=/usr/local/opt/fzf

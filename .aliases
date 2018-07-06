@@ -154,3 +154,5 @@ alias path='echo -e ${PATH//:/\\n}'
 
 alias vimf='vim $(fzf)'
 alias gcob='git checkout $(git branch | fzf)'
+alias cls='clear'
+alias github='cd /Users/venkat.kalluru/github/'

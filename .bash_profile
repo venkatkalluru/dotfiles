@@ -52,6 +52,4 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 #enable vi mode on command line
 set -o vi
 
-export EDITOR=vim
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
