@@ -39,3 +39,4 @@ export GPG_TTY=$(tty);
 
 export SBT_OPTS="-XX:MaxPermSize=2048m -XX:+CMSClassUnloadingEnabled"
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+export PATH=$PATH:/usr/local/go/bin
