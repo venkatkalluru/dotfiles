@@ -107,3 +107,6 @@ set -o vi
 [ -f ~/.work-specific ] && source ~/.work-specific
 [ -f ~/history.zsh ] && source ~/history.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#MANAGE-SETUP Added by manage's automatic setup
+export PATH=/Users/venkat.kalluru/bin:${PATH}
+eval `manage zsh`

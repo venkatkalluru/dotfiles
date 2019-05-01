@@ -53,3 +53,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 set -o vi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+#MANAGE-SETUP Added by manage's automatic setup
+export PATH=/Users/venkat.kalluru/bin:${PATH}
+eval `manage bash`
