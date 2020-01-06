@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 set -o vi
+eval $(thefuck --alias)
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.work-specific ] && source ~/.work-specific
 [ -f ~/history.zsh ] && source ~/history.zsh

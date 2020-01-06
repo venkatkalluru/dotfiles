@@ -152,6 +152,7 @@ alias path='echo -e ${PATH//:/\\n}'
 
 #######All the settings below this line are added by me########
 
+alias vi='vim'
 alias vimf='vim $(fzf)'
 alias gcob='git checkout $(git branch | fzf)'
 alias cls='clear'
