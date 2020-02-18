@@ -77,7 +77,7 @@ set title
 set showcmd
 " Use relative line numbers
 " if exists("&relativenumber")
-"	set relativenumber
+set relativenumber
 "	au BufReadPost * set relativenumber
 " endif
 " Start scrolling three lines before the horizontal window border
