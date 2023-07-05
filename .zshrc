@@ -65,7 +65,7 @@ plugins=(
   git
   bundler
   dotenv
-  osx
+  macos 
   rake
   rbenv
   ruby
@@ -103,11 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 set -o vi
-eval $(thefuck --alias)
 [ -f ~/.aliases ] && source ~/.aliases
 [ -f ~/.work-specific ] && source ~/.work-specific
 [ -f ~/history.zsh ] && source ~/history.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #MANAGE-SETUP Added by manage's automatic setup
 export PATH=/Users/venkat.kalluru/bin:${PATH}
-eval `manage zsh`
