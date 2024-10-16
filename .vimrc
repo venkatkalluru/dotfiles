@@ -1,5 +1,5 @@
 " Use the Solarized Dark theme
-set background=light
+set background=dark
 " colorscheme solarized
 " let g:solarized_termtrans=1
 
@@ -77,7 +77,7 @@ set title
 set showcmd
 " Use relative line numbers
 " if exists("&relativenumber")
-set relativenumber
+" set relativenumber
 "	au BufReadPost * set relativenumber
 " endif
 " Start scrolling three lines before the horizontal window border
